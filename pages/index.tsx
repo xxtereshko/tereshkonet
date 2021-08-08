@@ -9,7 +9,6 @@ export default function Home() {
       <Head>
         <title>tereshko.net</title>
       </Head>
-
       <p>tereshko.net</p>
 
       <Image
