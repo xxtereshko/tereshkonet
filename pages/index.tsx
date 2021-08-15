@@ -5,11 +5,11 @@ export default function Home() {
     <>
       <Head>
         <title>tereshko.net</title>
-        <meta name="description" content="Maxim Tereshko :: tereshko.net" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <p>tereshko.net</p>
+      <p className="p-8 m-10 text-2xl bg-white rounded-2xl text-center">
+        tereshko.net 🥺
+      </p>
     </>
   );
 }
