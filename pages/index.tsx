@@ -5,9 +5,10 @@ export default function Home() {
     <>
       <Head>
         <title>tereshko.net</title>
+        <meta name="theme-color" content="#000" />
       </Head>
 
-      <p className="p-8 m-10 text-xl bg-white rounded-2xl text-center">
+      <p className="p-6 md:p-7 m-4 md:m-8 text-md md:text-lg bg-white rounded-2xl md:text-center">
         tereshko.net 🥺
       </p>
     </>
