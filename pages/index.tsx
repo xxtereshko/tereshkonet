@@ -7,7 +7,7 @@ export default function Home() {
         <title>tereshko.net</title>
       </Head>
 
-      <p className="p-8 m-10 text-2xl bg-white rounded-2xl text-center">
+      <p className="p-8 m-10 text-xl bg-white rounded-2xl text-center">
         tereshko.net 🥺
       </p>
     </>
