@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <Head>
         <title>tereshko.net</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Link href="/">
