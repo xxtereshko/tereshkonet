@@ -1,43 +1,18 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import type { DocumentContext } from "next/document";
-import { GA_TRACKING_ID } from "../lib/analytics";
+import Document, { Html, Head, Main, NextScript } from 'next/document'
+import AnalyticsScripts from '../utils/AnalyticsScripts'
 
-class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
-  }
-
+export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="ru">
         <Head>
-          <meta name="theme-color" content="#000" />
-
-          {/* Google Analytics */}
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-
-                    gtag('config', '${GA_TRACKING_ID}', {
-                        page: window.location.pathname
-                    });`,
-            }}
-          />
+          {process.env.NODE_ENV === 'production' && <AnalyticsScripts />}
         </Head>
-        <body className="bg-gray-100">
+        <body>
           <Main />
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }
-
-export default MyDocument;
