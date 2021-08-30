@@ -17,11 +17,19 @@ const Home: NextPage = () => {
         </a>
       </p>
       <p>
+        Instagram{' '}
+        <a href="https://instagram.com/xxtereshko" className="text-blue-600">
+          @xxtereshko
+        </a>
+      </p>
+      <p>
         GitHub{' '}
         <a href="https://github.com/xxtereshko" className="text-blue-600">
           @xxtereshko
         </a>
       </p>
+
+      <p>Где только модно — @xxtereshko</p>
 
       <p className="pt-3">Спасибо за внимание.</p>
     </div>
