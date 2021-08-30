@@ -3,7 +3,10 @@ import type { NextPage } from 'next'
 const Home: NextPage = () => {
   return (
     <div className="px-4 py-8 space-y-4">
-      <p className="pb-3">Максим Дмитриевич Терешкó 🦄</p>
+      <p>Максим Дмитриевич Терешкó 🦄</p>
+      <p className="pb-3 text-gray-600">
+        JavaScript, React и крафтовое пиво...
+      </p>
       <p>
         <a href="tel:+79097767696" className="text-blue-600">
           +7 909 776 76 96
@@ -29,9 +32,7 @@ const Home: NextPage = () => {
         </a>
       </p>
 
-      <p>Где только модно — @xxtereshko</p>
-
-      <p className="pt-3">🤝</p>
+      <p className="pt-3">@xxtereshko там, где модно</p>
     </div>
   )
 }
