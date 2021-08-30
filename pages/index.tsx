@@ -31,7 +31,7 @@ const Home: NextPage = () => {
 
       <p>Где только модно — @xxtereshko</p>
 
-      <p className="pt-3">Спасибо за внимание.</p>
+      <p className="pt-3">🤝</p>
     </div>
   )
 }
