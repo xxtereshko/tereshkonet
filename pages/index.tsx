@@ -17,7 +17,6 @@ const Home: NextPage = () => {
             +7 909 776 76 96
           </a>
         </p>
-        <p>4274 3200 3066 1923</p>
         <p>
           Telegram{' '}
           <a href="https://t.me/xxtereshko" className="text-blue-600">
