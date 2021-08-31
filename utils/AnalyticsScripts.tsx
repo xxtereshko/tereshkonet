@@ -16,7 +16,7 @@ export default function AnalyticsScripts() {
               gtag('config', '${GA_TRACKING_ID}', {
                 page_path: window.location.pathname,
                 cookie_domain: 'tereshko.net',
-                cookie_flags: 'SameSite=None;Secure;httpOnly'
+                cookie_flags: 'SameSite=Lax;Secure'
               });
           `,
         }}
