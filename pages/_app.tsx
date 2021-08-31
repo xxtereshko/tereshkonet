@@ -26,7 +26,6 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta name="description" content="tereshko.net 🦄" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://www.google-analytics.com" />
       </Head>
       <Component {...pageProps} />
     </>
