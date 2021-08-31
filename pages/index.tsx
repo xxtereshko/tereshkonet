@@ -7,9 +7,9 @@ const Home: NextPage = () => {
         Skip to main
       </a>
 
-      <div className="px-4 py-8 space-y-4">
+      <div className="px-4 py-8 space-y-3">
         <p>Максим Дмитриевич Терешкó 🦄</p>
-        <p className="pb-3 text-gray-600">
+        <p className="pb-2 text-gray-600">
           JavaScript, React и крафтовое пиво...
         </p>
         <p>
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
           </a>
         </p>
 
-        <p className="pt-3">@xxtereshko там, где модно</p>
+        <p className="pt-2">@xxtereshko там, где модно</p>
       </div>
     </>
   )
