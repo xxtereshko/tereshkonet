@@ -23,7 +23,10 @@ const App = ({ Component, pageProps }: AppProps) => {
       <Head>
         <title>tereshko.net 🦄</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="tereshko.net 🦄" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
       </Head>
       <Component {...pageProps} />
     </>
