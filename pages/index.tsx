@@ -9,7 +9,7 @@ const Home: NextPage = () => {
 
       <div className="px-4 py-8 space-y-3">
         <p>Максим Дмитриевич Терешкó 🦄</p>
-        <p className="pb-2 text-gray-600">
+        <p className="pb-4 text-gray-600">
           JavaScript, React и крафтовое пиво...
         </p>
         <p>
@@ -35,8 +35,6 @@ const Home: NextPage = () => {
             @xxtereshko
           </a>
         </p>
-
-        <p className="pt-2">@xxtereshko там, где модно</p>
       </div>
     </>
   )
