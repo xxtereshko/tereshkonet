@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           <div className="space-y-1">
             <p>Максим Дмитриевич Терешкó 🦄</p>
             <p className="text-gray-600">
-              JavaScript, React и крафтовое{' '}
+              UIE, TS, React и крафтовое{' '}
               <a href="https://untappd.com/user/xxtereshko">пиво</a>...
             </p>
           </div>
