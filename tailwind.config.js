@@ -1,7 +1,11 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  darkMode: 'class',
+  // future: {
+  //   removeDeprecatedGapUtilities: true,
+  //   purgeLayersByDefault: true,
+  // },
+  darkMode: 'media',
   purge: ['./components/**/*.tsx', './pages/**/*.tsx', './public/**/*.html'],
   theme: {
     extend: {},
@@ -17,7 +21,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    // extend: {
+    //   backgroundColor: ['dark'],
+    //   textColor: ['dark'],
+    // },
   },
   plugins: [],
 }
