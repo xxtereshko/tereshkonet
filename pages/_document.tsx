@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
         <Head>
           {process.env.NODE_ENV === 'production' && <AnalyticsScripts />}
         </Head>
-        <body>
+        <body className="bg-white text-black dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />
         </body>

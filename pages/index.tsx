@@ -20,14 +20,17 @@ const Home: NextPage = () => {
           />
           <div className="space-y-1">
             <p>Максим Дмитриевич Терешкó 🦄</p>
-            <p className="text-gray-600">
+            <p className="text-gray-600 dark:text-gray-400">
               TypeScript, React и крафтовое{' '}
               <a href="https://untappd.com/user/xxtereshko">пиво</a>...
             </p>
           </div>
         </div>
         <p>
-          <a href="tel:+79097767696" className="text-blue-600">
+          <a
+            href="https://instagram.com/xxtereshko"
+            className="text-blue-600 dark:text-blue-400"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4 text-gray-400 inline-block -mt-1 mr-2"
@@ -41,19 +44,28 @@ const Home: NextPage = () => {
         </p>
         <p>
           Telegram{' '}
-          <a href="https://t.me/xxtereshko" className="text-blue-600">
+          <a
+            href="https://instagram.com/xxtereshko"
+            className="text-blue-600 dark:text-blue-400"
+          >
             @xxtereshko
           </a>
         </p>
         <p>
           Instagram{' '}
-          <a href="https://instagram.com/xxtereshko" className="text-blue-600">
+          <a
+            href="https://instagram.com/xxtereshko"
+            className="text-blue-600 dark:text-blue-400"
+          >
             @xxtereshko
           </a>
         </p>
         <p>
           GitHub{' '}
-          <a href="https://github.com/xxtereshko" className="text-blue-600">
+          <a
+            href="https://instagram.com/xxtereshko"
+            className="text-blue-600 dark:text-blue-400"
+          >
             @xxtereshko
           </a>
         </p>

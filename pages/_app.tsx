@@ -4,6 +4,7 @@ import { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
 import * as gtag from '../utils/gtag'
 import Head from 'next/head'
+import { ThemeProvider } from 'next-themes'
 
 const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter()
@@ -38,7 +39,9 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta property="og:description" content="Максим Дмитриевич Терешко" />
         <meta property="og:image" content="/images/og-image.jpg" />
       </Head>
-      <Component {...pageProps} />
+      <ThemeProvider attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   )
 }
