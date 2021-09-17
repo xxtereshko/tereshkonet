@@ -1,13 +1,28 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
+import Social from '../components/Index/Social'
 
 const Home: NextPage = () => {
+  const social = [
+    {
+      title: 'Telegram',
+      href: 'https://t.me/xxtereshko',
+      link: '@xxtereshko',
+    },
+    {
+      title: 'Instagram',
+      href: 'https://instagram.com/xxtereshko',
+      link: '@xxtereshko',
+    },
+    {
+      title: 'GitHub',
+      href: 'https://github.com/xxtereshko',
+      link: '@xxtereshko',
+    },
+  ]
+
   return (
     <>
-      <a className="skip-link absolute -top-28" href="#maincontent">
-        Skip to main
-      </a>
-
       <div className="px-4 py-8 space-y-3">
         <div className="flex flex-col items-start sm:flex-row pb-4 sm:items-center sm:space-x-5 space-y-6 sm:space-y-0">
           <Image
@@ -42,33 +57,15 @@ const Home: NextPage = () => {
             +7 909 776 76 96
           </a>
         </p>
-        <p>
-          Telegram{' '}
-          <a
-            href="https://instagram.com/xxtereshko"
-            className="text-blue-600 dark:text-blue-400"
-          >
-            @xxtereshko
-          </a>
-        </p>
-        <p>
-          Instagram{' '}
-          <a
-            href="https://instagram.com/xxtereshko"
-            className="text-blue-600 dark:text-blue-400"
-          >
-            @xxtereshko
-          </a>
-        </p>
-        <p>
-          GitHub{' '}
-          <a
-            href="https://instagram.com/xxtereshko"
-            className="text-blue-600 dark:text-blue-400"
-          >
-            @xxtereshko
-          </a>
-        </p>
+
+        {social.map((el) => (
+          <Social
+            key={el.href}
+            title={el.title}
+            link={el.link}
+            href={el.href}
+          />
+        ))}
       </div>
     </>
   )
