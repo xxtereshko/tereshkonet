@@ -1,8 +1,11 @@
-import { GA_TRACKING_ID } from '../utils/gtag'
+import { GA_TRACKING_ID } from '../utils/gtag';
 
 export default function AnalyticsScripts() {
   return (
     <>
+      <link rel="preconnect" href="https://www.google-analytics.com" />
+      <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+
       <script
         async
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
