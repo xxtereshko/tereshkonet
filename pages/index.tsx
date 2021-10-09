@@ -66,9 +66,19 @@ const Home: NextPage = () => {
           />
         ))}
         <div className="pt-5">
-          <div className="w-20 hover:w-44 qr">
+          <div className="w-16 hover:w-44 transition-width dark:hidden">
             <Image
               src="/images/qr.svg"
+              layout="responsive"
+              alt="Максим Терешко"
+              width={64}
+              height={64}
+            />
+          </div>
+
+          <div className="w-16 hover:w-44 transition-width hidden dark:block">
+            <Image
+              src="/images/qr-dark.svg"
               layout="responsive"
               alt="Максим Терешко"
               width={64}

@@ -7,12 +7,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.qr {
-  transition: 0.25s ease;
-}
-
-.qr:hover {
-  width: 256px;
-  height: 256px;
-}

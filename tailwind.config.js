@@ -4,7 +4,11 @@ module.exports = {
   darkMode: 'media',
   purge: ['./components/**/*.tsx', './pages/**/*.tsx', './public/**/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        width: 'width',
+      },
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -16,6 +20,11 @@ module.exports = {
       blue: colors.blue,
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      width: ['hover'],
+      display: ['dark'],
+    },
+  },
   plugins: [],
 }
