@@ -41,7 +41,6 @@ const Home: NextPage = () => {
             </p>
           </div>
         </div>
-
         <p>
           <a
             href="https://instagram.com/xxtereshko"
@@ -58,7 +57,6 @@ const Home: NextPage = () => {
             +7 909 776 76 96
           </a>
         </p>
-
         {social.map((el) => (
           <Social
             key={el.href}
@@ -67,6 +65,17 @@ const Home: NextPage = () => {
             href={el.href}
           />
         ))}
+        <div className="pt-5">
+          <div className="w-20 hover:w-44 qr">
+            <Image
+              src="/images/qr.svg"
+              layout="responsive"
+              alt="Максим Терешко"
+              width={64}
+              height={64}
+            />
+          </div>
+        </div>
       </div>
     </>
   )
