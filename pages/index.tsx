@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import { NextSeo } from 'next-seo';
 import Image from 'next/image';
 
 import Social from '../components/Index/Social';
@@ -24,6 +25,11 @@ const Home: NextPage = () => {
 
   return (
     <>
+      <NextSeo
+        title="Максим Терешко 🦄"
+        description="Личный блог Максима Терешко. Объясняю словами и кодом."
+      />
+
       <div className="px-4 py-8 space-y-3">
         <div className="flex flex-col items-start sm:flex-row pb-4 sm:items-center sm:space-x-5 space-y-6 sm:space-y-0">
           <div className="w-16">

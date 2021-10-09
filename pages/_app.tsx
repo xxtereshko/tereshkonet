@@ -23,9 +23,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>tereshko.net 🦄</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="tereshko.net 🦄" />
         <meta name="theme-color" content="currentColor" />
         <link rel="icon" href="/images/favicon.svg" />
         <link rel="icon shortcut" href="/favicon.ico" />
