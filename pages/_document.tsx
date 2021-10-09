@@ -1,6 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 
-import Social from '../components/Index/Social';
 import AnalyticsScripts from '../utils/AnalyticsScripts';
 
 export default class MyDocument extends Document {
