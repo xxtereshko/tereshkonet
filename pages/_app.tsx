@@ -24,7 +24,14 @@ const App = ({ Component, pageProps }: AppProps) => {
     <>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="theme-color" content="currentColor" />
+
+        <meta name="theme-color" content="#fff" />
+        <meta
+          name="theme-color"
+          content="#18181b"
+          media="(prefers-color-scheme: dark)"
+        />
+
         <link rel="icon" href="/images/favicon.svg" />
         <link rel="icon shortcut" href="/favicon.ico" />
 
