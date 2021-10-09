@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         <div className="flex flex-col items-start sm:flex-row pb-4 sm:items-center sm:space-x-5 space-y-6 sm:space-y-0">
           <div className="w-16">
             <Image
-              src="/images/pic.jpeg"
+              src="/images/pic.jpg"
               width="64"
               height="64"
               layout="responsive"
