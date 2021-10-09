@@ -26,14 +26,16 @@ const Home: NextPage = () => {
     <>
       <div className="px-4 py-8 space-y-3">
         <div className="flex flex-col items-start sm:flex-row pb-4 sm:items-center sm:space-x-5 space-y-6 sm:space-y-0">
-          <Image
-            src="/images/pic.jpeg"
-            width="64"
-            height="64"
-            layout="fixed"
-            alt="Максим Терешко"
-            className="rounded-full"
-          />
+          <div className="w-16">
+            <Image
+              src="/images/pic.jpeg"
+              width="64"
+              height="64"
+              layout="responsive"
+              alt="Максим Терешко"
+              className="rounded-full"
+            />
+          </div>
           <div className="space-y-1">
             <p>Максим Дмитриевич Терешкó 🦄</p>
             <p className="text-gray-600 dark:text-gray-400">
@@ -70,17 +72,17 @@ const Home: NextPage = () => {
             <Image
               src="/images/qr.svg"
               layout="responsive"
-              alt="Максим Терешко"
+              alt="QR Code"
               width={64}
               height={64}
             />
           </div>
 
-          <div className="w-16 hover:w-44 transition-width hidden dark:block">
+          <div className="w-16 hover:w-32 transition-width hidden dark:block">
             <Image
               src="/images/qr-dark.svg"
               layout="responsive"
-              alt="Максим Терешко"
+              alt="QR Code"
               width={64}
               height={64}
             />
