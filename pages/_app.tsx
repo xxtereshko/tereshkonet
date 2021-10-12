@@ -35,7 +35,6 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link rel="icon" href="/images/favicon.svg" />
         <link rel="icon shortcut" href="/favicon.ico" />
 
-        {/* OG */}
         <meta property="og:title" content="tereshko.net 🦄" />
         <meta property="og:description" content="Максим Дмитриевич Терешко" />
         <meta property="og:image" content="/images/og-image.jpg" />
