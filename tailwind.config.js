@@ -1,31 +1,17 @@
-const colors = require('tailwindcss/colors')
-
 module.exports = {
-  darkMode: 'media',
   mode: 'jit',
-  purge: ['./components/**/*.tsx', './pages/**/*.tsx', './public/**/*.html'],
+  purge: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './layouts/**/*.{js,ts,jsx,tsx}',
+    './lib/**/*.{js,ts,jsx,tsx}',
+  ],
+  darkMode: 'class',
   theme: {
-    extend: {
-      transitionProperty: {
-        width: 'width',
-      },
-    },
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      black: colors.black,
-      white: colors.white,
-      gray: colors.gray,
-      red: colors.red,
-      yellow: colors.amber,
-      blue: colors.blue,
-    },
+    extend: {},
   },
   variants: {
-    extend: {
-      width: ['hover'],
-      display: ['dark'],
-    },
+    extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }

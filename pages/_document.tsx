@@ -1,15 +1,22 @@
-import Document, { Head, Html, Main, NextScript } from 'next/document';
+import Document, {
+  Html,
+  Head,
+  Main,
+  NextScript,
+  DocumentContext,
+} from 'next/document'
 
-import AnalyticsScripts from '../utils/AnalyticsScripts';
+class MyDocument extends Document {
+  static async getInitialProps(ctx: DocumentContext) {
+    const initialProps = await Document.getInitialProps(ctx)
+    return { ...initialProps }
+  }
 
-export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="ru">
-        <Head>
-          {process.env.NODE_ENV === 'production' && <AnalyticsScripts />}
-        </Head>
-        <body className="bg-white text-black dark:bg-gray-900 dark:text-white">
+        <Head />
+        <body className="antialiased text-black bg-white">
           <Main />
           <NextScript />
         </body>
@@ -17,3 +24,5 @@ export default class MyDocument extends Document {
     )
   }
 }
+
+export default MyDocument
