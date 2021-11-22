@@ -1,11 +1,11 @@
-import '../styles/globals.css';
+import '../styles/globals.css'
 
-import { AppProps } from 'next/app';
-import Head from 'next/head';
-import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import { AppProps } from 'next/app'
+import Head from 'next/head'
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 
-import * as gtag from '../utils/gtag';
+import * as gtag from '../utils/gtag'
 
 const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter()

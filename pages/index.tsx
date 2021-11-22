@@ -1,8 +1,7 @@
+import Image from 'next/image'
 import type { NextPage } from 'next'
-import { NextSeo } from 'next-seo';
-import Image from 'next/image';
-
-import Social from '../components/Index/Social';
+import { NextSeo } from 'next-seo'
+import Social from '../components/Index/Social'
 
 const Home: NextPage = () => {
   const social = [
