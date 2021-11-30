@@ -13,7 +13,7 @@ const Home: NextPage = () => {
           className="rounded-full"
           alt={'tereshko.net'}
         />
-        <p className="text-xl mt-4">Максим Терешко</p>
+        <p className="text-xl mt-4">Максим Терешко́</p>
         <p className="text-sm mt-1 text-gray-500">@xxtereshko</p>
       </div>
     </div>
