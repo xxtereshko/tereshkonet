@@ -1,9 +1,9 @@
 import Document, {
-  Html,
+  DocumentContext,
   Head,
+  Html,
   Main,
   NextScript,
-  DocumentContext,
 } from 'next/document'
 
 class MyDocument extends Document {
@@ -16,7 +16,7 @@ class MyDocument extends Document {
     return (
       <Html lang="ru">
         <Head />
-        <body className="antialiased text-black bg-white">
+        <body className="antialiased text-black bg-white dark:text-white dark:bg-gray-900">
           <Main />
           <NextScript />
         </body>
