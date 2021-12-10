@@ -1,8 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import type { NextPage } from 'next'
-import tereshko from '../images/tereshko.jpeg'
+import Head from 'next/head';
+import Image from 'next/image';
 
+import qrDark from '../images/qr-dark.svg';
+import tereshko from '../images/tereshko.jpeg';
+import qr from '../images/vector.svg';
+
+import type { NextPage } from 'next'
 const Home: NextPage = () => {
   return (
     <>
@@ -19,9 +22,17 @@ const Home: NextPage = () => {
             alt={'tereshko.net'}
           />
           <p className="text-xl mt-4">Максим Терешко́</p>
-          <p className="text-sm mt-1 text-gray-500 dark:text-gray-400">
+          <p className="text-sm mt-1 text-gray-500 dark:text-gray-400 mb-16">
             @xxtereshko
           </p>
+
+          <div className="block dark:hidden">
+            <Image src={qr} width={150} height={150} alt={'tereshko.net'} />
+          </div>
+
+          <div className="hidden dark:block">
+            <Image src={qrDark} width={150} height={150} alt={'tereshko.net'} />
+          </div>
         </div>
       </div>
     </>
