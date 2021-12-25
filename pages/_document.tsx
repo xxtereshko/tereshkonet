@@ -15,8 +15,13 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="ru">
-        <Head />
-        <body className="antialiased text-black bg-white dark:text-white dark:bg-gray-900">
+        <Head>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
+            rel="stylesheet"
+          />
+        </Head>
+        <body className="antialiased">
           <Main />
           <NextScript />
         </body>
