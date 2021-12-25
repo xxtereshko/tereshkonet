@@ -13,7 +13,10 @@ const Home: NextPage = () => {
         {/* ← */}
         <span>
           {/* ✨{' '} */}
-          <a href="//t.me/xxtereshko" className="border-b-2 border-gray-500">
+          <a
+            href="https://t.me/xxtereshko"
+            className="border-b-2 border-gray-500"
+          >
             @xxtereshko
           </a>
         </span>
