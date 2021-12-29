@@ -5,24 +5,15 @@
 		<meta name="description" content="Максим Терешко" />
 		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="preload" href="fonts/Inter-Cyr.woff2" as="font" type="font/woff2" crossorigin />
+
+		<link rel="preload" href="fonts/Inter.woff2" as="font" type="font/woff2" crossorigin />
 		<style>
 			@font-face {
 				font-family: 'Inter';
-				font-style: normal;
-				font-weight: 400;
+				src: url('fonts/Inter.woff2') format('woff2'), url('fonts/Inter.woff') format('woff');
 				font-display: swap;
-				src: url('fonts/Inter-Cyr.woff2') format('woff2');
-				unicode-range: U+0410-042F, U+0430-04AA, U+0401, U+0451, U+0020-0040, U+005B-0060,
-					U+007B-007F, U+00A0-00BE;
-			}
-			@font-face {
-				font-family: 'Inter';
-				font-style: normal;
-				font-weight: 400;
-				font-display: swap;
-				src: url('fonts/Inter-Lat.woff2') format('woff2');
-				unicode-range: U+0041-005A, U+0061-007A;
+				unicode-range: U+A, U+21-5A, U+5C, U+5E, U+5F, U+61-7A, U+7C, U+A9, U+AB, U+AE, U+BB, U+401,
+					U+410-44F, U+451, U+2014, U+20BD;
 			}
 		</style>
 		%svelte.head%
