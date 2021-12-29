@@ -9,13 +9,8 @@
 		<li class="mb-4">
 			<a class="border-b-2 border-gray" href="https://t.me/xxtereshko">telegram</a>
 		</li>
-		<!-- <li class="mb-4">
-			<a class="border-b-2 border-gray" href="https://twitter.com/xxtereshko">twitter</a>
-		</li> -->
 		<li class="mb-4">
-			<a href="mailto:hey@tereshko.net">
-				<span class="border-b-2 border-gray">hey@tereshko.net</span>
-			</a>
+			<a class="border-b-2 border-gray" href="mailto:hey@tereshko.net">hey@tereshko.net</a>
 		</li>
 	</ul>
 </main>
