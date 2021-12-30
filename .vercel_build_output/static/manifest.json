@@ -1,0 +1,46 @@
+{
+	"name": "tereshko",
+	"short-name": "tereshko",
+	"icons": [
+		{
+			"src": "icons/favicon48w.png",
+			"type": "image/png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "icons/favicon72w.png",
+			"type": "image/png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "icons/favicon96w.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "icons/favicon128w.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "icons/favicon192w.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "icons/favicon256w.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		},
+		{
+			"src": "icons/favicon512w.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#ffffff"
+}
