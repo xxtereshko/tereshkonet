@@ -1,21 +1,3 @@
-# Unicode subsets
-
-## Cyrillic
-
-U+0410-042F (А-Я)
-U+0430-04АА (а-я)
-U+0401 (Ë)
-U+0451 (ё)
-U+0020-0040 (space-@ numbers+symbols)
-U+005B-0060 (\_-`)
-U+007B-007F ({}|~del)
-U+00A0-00BE (спецсимволы ©® etc)
-
-## Latin
-
-U+0041-005A (A-Z)
-U+0061-007A (a-z)
-
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
