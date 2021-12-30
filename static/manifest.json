@@ -1,0 +1,9 @@
+{
+	"name": "tereshko",
+	"short-name": "tereshko",
+	"icons": [],
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#ffffff"
+}
