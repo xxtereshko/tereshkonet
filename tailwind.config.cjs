@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -10,6 +10,6 @@ const config = {
 		}
 	},
 	plugins: []
-};
+}
 
-module.exports = config;
+module.exports = config
