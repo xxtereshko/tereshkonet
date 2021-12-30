@@ -1,7 +1,28 @@
 {
 	"name": "tereshko",
 	"short-name": "tereshko",
-	"icons": [],
+	"icons": [
+		{
+			"src": "icons/favicon48w.png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "icons/favicon72w.png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "icons/favicon96w.png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "icons/favicon128w.png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "icons/favicon256w.png",
+			"sizes": "256x256"
+		}
+	],
 	"start_url": ".",
 	"display": "standalone",
 	"background_color": "#ffffff",
