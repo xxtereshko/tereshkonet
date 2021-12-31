@@ -35,22 +35,28 @@
 </script>
 
 <svelte:head>
-	<title>✨</title>
+	<title>Lowadi — tereshko.net</title>
 </svelte:head>
 
 {#each confetti as c}
 	<span style="left: {c.x}%; top: {c.y}%; transform: scale({c.r})">{c.character}</span>
 {/each}
 
-<h1 class="text-2xl">Infinite Lowadi</h1>
+<div class="center p-8">
+	<h1 class="text-2xl mb-4">Lowadi</h1>
+	<p class="text-sm text-gray-500">
+		Розовые! <a href="/" class="border-b text-black">Домой</a>
+	</p>
+</div>
 
 <style>
-	h1 {
+	.center {
 		position: absolute;
 		left: 50%;
 		top: 50%;
 		z-index: -1;
 		transform: translate(-50%, -50%);
+		user-select: none;
 	}
 
 	:global(body) {
