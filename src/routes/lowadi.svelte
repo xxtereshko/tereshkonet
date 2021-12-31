@@ -61,11 +61,13 @@
 
 	:global(body) {
 		overflow: hidden;
+		height: 100vh;
 	}
 
 	span {
 		position: absolute;
 		font-size: calc(3vh + 4.5vw);
 		user-select: none;
+		cursor: default;
 	}
 </style>
