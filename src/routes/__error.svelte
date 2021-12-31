@@ -25,6 +25,6 @@
 	{/if}
 
 	<p class="text-sm text-gray-500">
-		Ошибочка вышла. <a href="/" class="border-b text-black">Главная</a>
+		Ошибочка вышла. <a href="/" class="border-b text-black">Домой</a>
 	</p>
 </div>
