@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte'
 
-	let characters = ['🦄', '🦄', '🦄', '🌈', '✨']
+	let characters = ['🦄', '☁️', '☁️']
 
 	let confetti = new Array(20)
 		.fill()
@@ -22,7 +22,7 @@
 			frame = requestAnimationFrame(loop)
 
 			confetti = confetti.map((emoji) => {
-				emoji.y += 0.35 * emoji.r
+				emoji.y += 0.18 * emoji.r
 				if (emoji.y > 120) emoji.y = -20
 				return emoji
 			})
@@ -42,7 +42,7 @@
 	<span style="left: {c.x}%; top: {c.y}%; transform: scale({c.r})">{c.character}</span>
 {/each}
 
-<h1 class="text-2xl">Lowadi</h1>
+<h1 class="text-2xl">Infinite Lowadi</h1>
 
 <style>
 	h1 {
@@ -50,6 +50,7 @@
 		left: 50%;
 		top: 50%;
 		z-index: -1;
+		transform: translate(-50%, -50%);
 	}
 
 	:global(body) {
@@ -58,7 +59,7 @@
 
 	span {
 		position: absolute;
-		font-size: calc(4vh + 4vw);
+		font-size: calc(3vh + 4.5vw);
 		user-select: none;
 	}
 </style>
