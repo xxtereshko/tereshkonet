@@ -12,6 +12,13 @@
 			>
 		</li>
 		<li class="mb-4">
+			<a
+				class="border-b-2 border-gray"
+				href="https://github.com/xxtereshko"
+				rel="noopener noreferrer">github</a
+			>
+		</li>
+		<li class="mb-4">
 			<a class="border-b-2 border-gray" href="mailto:hey@tereshko.net" rel="noopener noreferrer"
 				>hey@tereshko.net</a
 			>
