@@ -60,7 +60,6 @@
 
 	:global(body) {
 		overflow: hidden;
-		height: 100vh;
 	}
 
 	span {
