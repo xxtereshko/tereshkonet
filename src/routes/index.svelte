@@ -10,7 +10,7 @@
 </svelte:head>
 
 <main class="p-8 text-xl">
-	<h1 class="mb-8">Максим Терешко ⛄️</h1>
+	<h1 class="mb-8">Максим Терешко</h1>
 
 	<ul>
 		<li class="mb-4">
@@ -31,6 +31,8 @@
 			>
 		</li>
 	</ul>
+
+	<p class="mt-16 text-xs text-gray-500">2022</p>
 
 	<span class="lowad" class:active={hereLowad}>🦄</span>
 	<a href="/lowadi" class="area" on:mouseenter={handleMouseenter} on:mouseleave={handleMouseleave}
