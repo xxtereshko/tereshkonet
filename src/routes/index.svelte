@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Максим Терешко</title>
+	<title>Максим Терешко 🦄</title>
 </svelte:head>
 
 <main class="p-8 text-xl">
