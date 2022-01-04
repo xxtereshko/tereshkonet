@@ -7,7 +7,7 @@
 <style>
 	:global(#svelte) {
 		position: relative;
-		height: 100vh;
+		height: 100%;
 		overflow: hidden;
 	}
 </style>
