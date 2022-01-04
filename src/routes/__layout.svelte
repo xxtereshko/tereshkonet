@@ -3,3 +3,11 @@
 </script>
 
 <slot />
+
+<style>
+	:global(#svelte) {
+		position: relative;
+		height: 100vh;
+		overflow: hidden;
+	}
+</style>
