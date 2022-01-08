@@ -1,16 +1,17 @@
 <script>
 	let hereLowad = false
-
 	const handleMouseenter = () => (hereLowad = true)
 	const handleMouseleave = () => (hereLowad = false)
 </script>
 
 <svelte:head>
-	<title>Максим Терешко 🦄</title>
+	<title>Максим Терешко</title>
 </svelte:head>
 
 <main class="p-8 text-xl">
-	<h1 class="mb-8">Максим Терешко</h1>
+	<h1 class="mb-2">Maxim Tereshko</h1>
+
+	<p class="mb-8 text-sm text-gray-500">@xxtereshko</p>
 
 	<ul>
 		<li class="mb-4">
