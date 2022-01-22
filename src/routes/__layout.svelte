@@ -5,12 +5,17 @@
 <slot />
 
 <style>
+	:global(html) {
+		height: -webkit-fill-available;
+	}
+
 	:global(body) {
-		height: 100vh;
+		min-height: 100vh;
+		/* mobile viewport bug fix */
+		min-height: -webkit-fill-available;
 	}
 
 	:global(#svelte) {
-		position: relative;
-		height: 100%;
+		min-height: 100vh;
 	}
 </style>

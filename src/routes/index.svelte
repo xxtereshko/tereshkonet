@@ -1,73 +1,41 @@
 <script>
-	let hereLowad = false
-	const handleMouseenter = () => (hereLowad = true)
-	const handleMouseleave = () => (hereLowad = false)
+	let year = new Date(Date.now()).getFullYear()
 </script>
 
 <svelte:head>
 	<title>Максим Терешко</title>
 </svelte:head>
 
-<main class="p-8 text-xl">
-	<h1 class="mb-2">Maxim Tereshko</h1>
+<header>
+	<h1 class="mb-2">Максим Терешко</h1>
+	<p class="text-sm text-gray-500">@xxtereshko</p>
+</header>
 
-	<p class="mb-8 text-sm text-gray-500">@xxtereshko</p>
-
-	<ul>
-		<li class="mb-4">
+<main class="flex-1">
+	<ul class="flex flex-col space-y-4">
+		<li>
+			☁️
 			<a class="border-b-2 border-gray" href="https://t.me/xxtereshko" rel="noopener noreferrer"
-				>telegram</a
+				>Telegram</a
 			>
 		</li>
-		<li class="mb-4">
+		<li>
+			👾
 			<a
 				class="border-b-2 border-gray"
 				href="https://github.com/xxtereshko"
-				rel="noopener noreferrer">github</a
+				rel="noopener noreferrer">GitHub</a
 			>
 		</li>
-		<li class="mb-4">
+		<li>
+			✉️
 			<a class="border-b-2 border-gray" href="mailto:hey@tereshko.net" rel="noopener noreferrer"
 				>hey@tereshko.net</a
 			>
 		</li>
 	</ul>
-
-	<span class="lowad" class:active={hereLowad}>🦄</span>
-	<a href="/lowadi" class="area" on:mouseenter={handleMouseenter} on:mouseleave={handleMouseleave}
-		>Lowadi</a
-	>
 </main>
 
-<style>
-	:global(body) {
-		overflow: hidden;
-	}
-
-	.area {
-		width: 100px;
-		height: 100px;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		z-index: 10;
-		opacity: 0;
-		user-select: none;
-	}
-
-	.lowad {
-		font-size: 90px;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		z-index: 1;
-		transform: translate(100%, 0) rotate(-30deg);
-		transform-origin: 100% 100%;
-		transition: transform 0.5s;
-		user-select: none;
-	}
-
-	.active {
-		transform: translate(-5%, -105%) rotate(0deg) scale(1.3);
-	}
-</style>
+<footer>
+	<p>{year}</p>
+</footer>
