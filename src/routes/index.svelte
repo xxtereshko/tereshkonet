@@ -12,7 +12,7 @@
 </header>
 
 <main class="flex-1 mt-8">
-	<ul class="flex flex-col space-y-4">
+	<ul class="flex flex-col space-y-4 text-lg">
 		<li>
 			☁️
 			<a class="link" href="https://t.me/xxtereshko" rel="noopener noreferrer">Telegram</a>
