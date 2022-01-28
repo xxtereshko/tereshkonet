@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link {
+	@apply border-b-2 border-gray-200 dark:border-gray-600;
+}
+
+.text-gray {
+	@apply text-gray-500 dark:text-gray-400;
+}
