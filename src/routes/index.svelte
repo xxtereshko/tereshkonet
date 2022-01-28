@@ -1,11 +1,5 @@
 <script>
-	import { onMount } from 'svelte/internal'
-
 	let year = new Date(Date.now()).getFullYear()
-
-	onMount(() => {
-		console.log(window.innerWidth - window.outerWidth)
-	})
 </script>
 
 <svelte:head>
@@ -17,7 +11,7 @@
 	<p class="text-sm text-gray">@xxtereshko</p>
 </header>
 
-<main class="flex-1">
+<main class="flex-1 mt-8">
 	<ul class="flex flex-col space-y-4">
 		<li>
 			☁️
@@ -33,7 +27,3 @@
 		</li>
 	</ul>
 </main>
-
-<footer>
-	<p>{year}</p>
-</footer>

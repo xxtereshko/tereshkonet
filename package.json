@@ -8,7 +8,7 @@
 		"url": "https://tereshko.net"
 	},
 	"scripts": {
-		"dev": "svelte-kit dev",
+		"dev": "svelte-kit dev --host",
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
@@ -19,7 +19,6 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "next",
-		"@sveltejs/adapter-vercel": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^5.10.1",
 		"@typescript-eslint/parser": "^5.10.1",
