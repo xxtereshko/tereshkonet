@@ -1,8 +1,0 @@
-/* Inter Cyrillic + Latin */
-@font-face {
-	font-family: 'Inter';
-	src: url('/fonts/Inter.woff2') format('woff2'), url('/fonts/Inter.woff') format('woff');
-	font-display: swap;
-	unicode-range: U+A, U+21-5A, U+5C, U+5E, U+5F, U+61-7A, U+7C, U+A9, U+AB, U+AE, U+BB, U+401,
-		U+410-44F, U+451, U+2014, U+20BD;
-}
