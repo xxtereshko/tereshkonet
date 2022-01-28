@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .link {
-	@apply border-b-2 border-gray-200 dark:border-gray-600;
+	@apply border-b-2 border-gray-200 dark:border-gray-600 mt-2;
 }
 
 .text-gray {
