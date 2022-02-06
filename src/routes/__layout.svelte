@@ -2,7 +2,7 @@
 	import '../app.css'
 </script>
 
-<div class="ref">здарова!</div>
+<div class="ref" />
 
 <header>
 	<h1 class="mb-2">Максим Терешко</h1>
