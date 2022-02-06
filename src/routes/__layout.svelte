@@ -25,7 +25,7 @@
 		right: 0;
 		position: absolute;
 		transform: translateY(-85px) translateZ(0);
-		z-index: 100000;
+		z-index: 10000;
 	}
 
 	.ref::after {
