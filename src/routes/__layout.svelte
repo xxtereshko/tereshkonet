@@ -15,7 +15,7 @@
 
 <style>
 	.ref {
-		background-image: url('static/images/east.png');
+		background-image: url('/static/images/east.png');
 		background-position: 50% bottom;
 		background-repeat: no-repeat;
 		background-size: 85px;
@@ -40,7 +40,7 @@
 
 	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 		.ref {
-			background-image: url('static/images/east@2x.png');
+			background-image: url('/static/images/east@2x.png');
 		}
 	}
 </style>
