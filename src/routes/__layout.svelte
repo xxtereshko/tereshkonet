@@ -4,14 +4,7 @@
 
 <div class="ref" />
 
-<header>
-	<h1 class="mb-2">Максим Терешко</h1>
-	<p class="text-sm text-gray">@xxtereshko</p>
-</header>
-
-<main class="flex-1 mt-8">
-	<slot />
-</main>
+<slot />
 
 <style>
 	.ref {
@@ -30,7 +23,7 @@
 
 	.ref::after {
 		color: #000;
-		content: 'Привет!';
+		content: 'Ээээээм';
 		font-size: 14px;
 		left: 50%;
 		position: absolute;
