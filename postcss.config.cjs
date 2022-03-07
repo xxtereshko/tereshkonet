@@ -1,7 +1,7 @@
-const autoprefixer = require('autoprefixer')
-
-const config = {
-	plugins: [autoprefixer()]
+module.exports = {
+	content: ['./src/**/*.{html,js,svelte,ts}'],
+	plugins: {
+		tailwindcss: {},
+		autoprefixer: {}
+	}
 }
-
-module.exports = config
