@@ -1,36 +1,34 @@
-<svelte:head>
-	<title>Максим Терешко</title>
-	<html lang="ru" />
-</svelte:head>
+<script>
+	// import Footer from '../widgets/footer.svelte'
+	import MainGrid from '../widgets/home-grid.svelte'
+</script>
 
-<header class="header container mx-auto" />
-
-<main class="main">
-	<section class="container mx-auto my-8">
-		<div class="my-20">
-			<p class="text-xl text-secondary">Привет! 👋🏻</p>
-
-			<h1 class="mt-6 text-4xl sm:text-6xl">
-				<span class="font-light">Я</span> <span class="font-bold">Максим Терешко</span>
-			</h1>
-
-			<h2 class="mt-1 text-xl text-gray-500 sm:text-2xl">Фронтенд разработчик</h2>
-
-			<div class="mt-12 space-x-2 text-lg">
-				<span>✉️ —</span>
-				<a href="mailto:hey@tereshko.net">hey@tereshko.net</a>
-			</div>
-			<div class="mt-12 flex space-x-4 mt-4 text-sm">
-				<a href="https://vk.com/xxtereshko" rel="noreferrer" target="_blank">ВКонтакте</a>
-				<a href="https://t.me/xxtereshko" rel="noreferrer" target="_blank">Telegram</a>
-				<a href="https://github.com/xxtereshko" rel="noreferrer" target="_blank">GitHub</a>
-			</div>
-		</div>
-	</section>
-</main>
-
-<footer class="footer">
-	<div class="container mx-auto">
-		<p>С ❤️ и ⌨️ @xxtereshko</p>
+<div class="main">
+	<div class="main-grid">
+		<MainGrid />
 	</div>
-</footer>
+	<div class="main-footer">
+		<div>🪐</div>
+		<div>{`[2022]`}</div>
+	</div>
+</div>
+
+<style>
+	.main {
+		min-height: 100%;
+		/* max-height: 100vh; */
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+
+	.main-footer {
+		margin-top: 60px;
+		display: flex;
+		justify-content: space-between;
+		opacity: 0.5;
+		border-top: solid 0.5px rgba(255, 255, 255, 0.2);
+		padding-top: 30px;
+	}
+</style>

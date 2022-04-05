@@ -45,5 +45,8 @@
 	"lint-staged": {
 		"*.{js,svelte}": "eslint --cache --fix",
 		"*.{js,css,md}": "prettier --write"
+	},
+	"dependencies": {
+		"sanitize.css": "^13.0.0"
 	}
 }
