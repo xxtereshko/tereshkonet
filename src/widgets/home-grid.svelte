@@ -131,7 +131,7 @@
 	}
 
 	.grid > .grid-item:nth-child(7) {
-		grid-column: 5 / span 2;
+		grid-column: 6 / span 2;
 	}
 
 	.grid > .grid-item:nth-child(8) {
