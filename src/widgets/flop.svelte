@@ -7,8 +7,7 @@
 		'/flop/3.png',
 		'/flop/4.png',
 		'/flop/5.png',
-		'/flop/6.png',
-		'/flop/7.png'
+		'/flop/6.png'
 	]
 
 	let index = 1

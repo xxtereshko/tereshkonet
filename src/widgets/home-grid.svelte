@@ -59,8 +59,10 @@
 		</svg>
 	</div>
 	<div class="grid-item">
-		<p>Бакалавр прикладной математики и информатики.</p>
-		<p>БФУ им. И. Канта (2019 — now)</p>
+		<p>ES6/TS.</p>
+		<p>React/React Native.</p>
+		<p>Effector.</p>
+		<p>Feature Sliced.</p>
 	</div>
 	<!-- ko -->
 	<div class="grid-item grid-item-big">
