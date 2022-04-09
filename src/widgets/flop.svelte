@@ -21,9 +21,10 @@
 
 <style>
 	.flop-img {
+		cursor: pointer;
 		width: 100%;
-		height: 100%;
+		max-width: 300px;
 		object-fit: contain;
-		aspect-ratio: 3/1;
+		aspect-ratio: 2/1;
 	}
 </style>

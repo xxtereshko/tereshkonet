@@ -1,17 +1,5 @@
-html,
-body,
-#svelte {
-	height: 100%;
-}
-
-.smoothed {
+body {
+	font-family: monospace;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-
-body {
-	font-family: 'Roboto Mono', monospace;
-	line-height: 1.6;
-	background-color: black;
-	color: white;
 }
