@@ -10,16 +10,9 @@
     "preview": "next build && next start"
   },
   "dependencies": {
-    "@radix-ui/react-slot": "^1.0.2",
-    "@supabase/ssr": "^0.3.0",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.379.0",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18",
-    "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -28,6 +21,7 @@
     "cssnano": "^7.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
+    "eslint-plugin-tailwindcss": "^3.17.4",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
